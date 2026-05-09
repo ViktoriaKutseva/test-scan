@@ -1,0 +1,4 @@
+services:
+  tests:
+    environment:
+      - APP_ENV=test

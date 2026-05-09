@@ -1,0 +1,15 @@
+[project]
+name = "support-automation-benchmark"
+version = "0.1.0"
+description = "Stress-testing monorepo for scanning and synthesis"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.11"
+strict = false
+
+[tool.unittest]
+start-directory = "tests"

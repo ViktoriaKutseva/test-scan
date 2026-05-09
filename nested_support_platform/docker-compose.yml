@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    command: python services/api/app/main.py
+  worker:
+    build: .
+    command: python services/worker/app/main.py
+  redis:
+    image: redis:7

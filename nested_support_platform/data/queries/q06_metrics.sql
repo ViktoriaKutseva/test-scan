@@ -1,0 +1,1 @@
+SELECT * FROM metrics LIMIT 50;

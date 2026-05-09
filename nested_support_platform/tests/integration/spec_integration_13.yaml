@@ -1,0 +1,3 @@
+name: integration-13
+service: api
+expected_status: ok
