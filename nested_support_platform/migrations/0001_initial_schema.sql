@@ -1,0 +1,2 @@
+CREATE TABLE tickets(id TEXT PRIMARY KEY, subject TEXT);
+CREATE TABLE customers(id TEXT PRIMARY KEY, name TEXT);

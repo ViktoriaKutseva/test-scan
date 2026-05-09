@@ -1,0 +1,3 @@
+name: unit-42
+input: {sample: true}
+expected: pass
